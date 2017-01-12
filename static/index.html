@@ -12,20 +12,30 @@
              flex-wrap: nowrap; 
              justify-content: space-around; 
              align-items: center;
-             font-family: 'Oswald', sans-serif;">
+             font-family: 'Oswald', sans-serif;
+             background-image: url(background.jpg);
+             color: white">
 	<!-- this is a comment in HTML -->
 	<h1>Josh Chao</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
+	<h1>Project Portfolio</h1>
 
 	<!-- p means paragraph -->
 	<p>Josh is a student at UC San Diego studying CS. He wishes to be a cracked web developer. Unfortunately, he is not. </p>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+	<h1>Projects</h1>
+	<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; align-items: flex-end; width: 100%; margin-bottom: 35px">
+		<div style="background-color: rgba(255, 255, 255, 0.6);">
+			<img src="project1.jpg" width="330" border=10px solid white/>
+			<p style="text-align: center; color: black">Some photo of Japan I like but I didn't take</p>
+		</div>
+		<div style="background-color: rgba(255, 255, 255, 0.6);">
+			<img src="project2.jpg" width="330" border=10px solid white/>
+			<p style="text-align: center; color: black">Another photo of Japan I like but I didn't take</p>
+		</div>
+		<div style="background-color: rgba(255, 255, 255, 0.6);">
+			<img src="project3.jpg" width="330" border=10px solid white/>
+			<p style="text-align: center; color: black">A third photo of Japan I like but I didn't take</p>
+		</div>
+	</div>
 </body>
 </html>
